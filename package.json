@@ -1,13 +1,13 @@
 {
-  "name": "codelint",
+  "name": "JSCodeLinter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "codelint": "src/index.js"
+    "JSCodeLinter": "src/index.js"
   },
   "scripts": {
-    "lint": "codelint --file error.js",
+    "lint": "JSCodeLinter --file error.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
